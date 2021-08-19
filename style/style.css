@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro {
+    background-color: rgba(216, 216, 216, 1);
+    background-image: linear-gradient(150deg, rgba(85, 51, 255, 1) 10%, rgba(5, 213, 255, 1) 90%, rgba(166, 255, 203, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: cursive;
+    font-size: 24px;
+    padding-bottom: 32px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 32px;
+}
+
+.titulo {
+    margin-top: 64px;
+    padding-bottom: 32px;
+    font-size: 32px;
+    text-shadow: 2px 2px 4px #ffffff;
+}
+
+.info {
+    margin-bottom: 64px;
+    text-shadow: 2px 2px 4px #ffffff;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/** CSS PATRICIA**/
+
+main {
+    background-color: aliceblue
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+}
+
+.putty {
+    background-color: rgb(230, 211, 49);
+    width: 220px;
+    height: 317px;
+    margin: 20px;
+    box-shadow: 8px 5px 5px black;
+}
+
+.aws {
+    background-color: rgb(192, 54, 54);
+    width: 220px;
+    height: 317px;
+    margin: 20px;
+    box-shadow: 8px 5px 5px black;
+}
+
+.win {
+    background-color: rgb(111, 151, 158);
+    width: 220px;
+    height: 317px;
+    margin: 20px;
+    box-shadow: 8px 5px 5px black;
+}
+
+.icones {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 5px;
+}
+
+.titulo2 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.descricao {
+    word-spacing: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 15px;
+    text-align: center;
+    width: 210px;
+    height: 90px;
+}
+
+#espaco {
+    padding-top: 10px;
+}
+
+.download {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.conteiner3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.textovideo {
+    width: 500px;
+    padding-left: 30px;
+    height: 100px;
+}
+
+#tutorial {
+    font-size: 35px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#agradecimento {
+    font-size: 20px;
+    text-align: center;
+}
+
+footer {
+    font-size: 20px;
+    background-color: rgba(216, 216, 216, 1);
+    background-image: linear-gradient(150deg, rgba(85, 51, 255, 1) 10%, rgba(5, 213, 255, 1) 90%, rgba(166, 255, 203, 1) 100%);
+    text-align: center;
+    padding: 7px;
+}
